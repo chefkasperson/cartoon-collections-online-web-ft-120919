@@ -1,4 +1,5 @@
-def roll_call_dwarves(dwarves)
+def roll_call_dwarves
+  dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
   dwarves.each_with_index(1) {|name, i| puts "#{i}. #{name}"}
 
